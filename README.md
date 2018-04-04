@@ -8,7 +8,7 @@ Repositório do grupo de estudos sobre Kubernetes do [Training SRE DevOps](https
 
 ## Como funciona
 
-Este grupo se destina ao estudo de [xxx].
+Este grupo se destina ao estudo de Kubernetes.
 
 Conforme [outros grupos de estudos](https://github.com/trainingsredevops/study-groups) da comunidade Training SRE DevOps, nós temos um [roadmap](material/roadmap.md) de tópicos para estudar juntos e fazemos reuniões semanais sobre o assunto:
 
