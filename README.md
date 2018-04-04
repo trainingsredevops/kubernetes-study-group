@@ -1,9 +1,9 @@
 # template-study-group
 
-Repositório do grupo de estudos sobre Kubernetes do [Training Center](https://trainingsredevops.github.io).
+Repositório do grupo de estudos sobre Kubernetes do [Training SRE DevOps](https://trainingsredevops.github.io).
 
 <p align="center">
-  <img src="assets/training-center-logo.svg" alt="Logo do Training Center">
+  <img src="assets/training-center-logo.svg" alt="Logo do Training SRE DevOps">
 </p>
 
 ## Como funciona
