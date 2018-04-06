@@ -1,11 +1,11 @@
-# Introdução à kubernetes
+# Introdução ao kubernetes
 
 A tecnologia de containers possibilita rodar processos, serviços e aplicativos de 
 maneira isolada, ou seja, um não enxerga o outro, de forma limitada, no qual cada um 
 possui um limite dos recursos de hardware disponíveis como quantidade de memória e
 espaço em disco.
 
-Kubernetes é um sistema Open Source desenvolvido pelo Google para o gerenciamento de cluster de
+[Kubernetes](https://kubernetes.io/) é um sistema Open Source desenvolvido pelo Google para o gerenciamento de cluster de
 containeres tendo como características auto-scaling de serviços e containeres, auto-monitoração de
 containeres, permite o deploy de containers e serviços, load balancer, orquestração de containers, e
 orquestação de volumes de armazenamento 'storeges'.
@@ -21,6 +21,7 @@ Google e distribuída em 2014 para automatização de deploys e gerenciamento de
 containers. Com ele é possível criar um cluster de containers em clouds privadas ou
 públicas (AWS, Goole Cloud, etc).
 
+
 ## Vantagens do Kubernetes:
 
 * Container sempre online: verifica a saúde da aplicação e recria o container se identificar alguma anomalia.
@@ -32,4 +33,13 @@ containers da mesma imagem.
 anterior da aplicação.
 * Execução em Batcj: permite rodar comandos em batch como containers.
 
+
+## Sua arquitetura
+
+Kubernetes possui uma unidade de controle chamada de master server que executa vários serviços
+de uso exclusivo para o funcionamento do cluster.
+
+Toda a comunicação e configuração de cluster é realizada por meio de ETCD um 
+armazenamento de chave-valor que salva o estado do cluster 
+e compartilha entre os nós por meio de sua API HTTP/JSON.
 
