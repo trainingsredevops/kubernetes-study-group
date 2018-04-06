@@ -1,7 +1,9 @@
 # Arquitetura do kubernetes
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
-    - [O que é no?](#O-que-é-no-?)
-    - [Estado de um no](#Estado-de-um-no)
+
+- [O que é no?](#O-que-é-no-?)
+- [Estado de um no](#Estado-de-um-no)
+
 <!-- /TOC -->
 
 # O que é no?
