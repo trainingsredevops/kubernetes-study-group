@@ -77,4 +77,4 @@ Não importa fazer deploy do seu codigo e não importa fazer build da sua aplica
 Integração continua, e Distribuição Continua (CI/CD) são detreminados pela cultura e
 preferência da organização, bem como pelos requisitos técnicos.
 
-
+- [Proximo - Arquitetura do Kubernete](arquitetura.md)
