@@ -5,10 +5,12 @@ maneira isolada, ou seja, um não enxerga o outro, de forma limitada, no qual ca
 possui um limite dos recursos de hardware disponíveis como quantidade de memória e
 espaço em disco.
 
-[Kubernetes](https://kubernetes.io/) é um sistema Open Source desenvolvido pelo Google para o gerenciamento de cluster de
-containeres tendo como características auto-scaling de serviços e containeres, auto-monitoração de
+[Kubernetes](https://kubernetes.io/) é uma plataforma Open Source extensivel e portal 
+para o gerenciamento de cluster de containeres, desenvolvido pelo Google.
+Como características auto-scaling de serviços de containeres, auto-monitoração de
 containeres, permite o deploy de containers e serviços, load balancer, orquestração de containers, e
 orquestação de volumes de armazenamento 'storeges'.
+
 
 ## Orquestração com Kubernetes
 
@@ -33,6 +35,19 @@ containers da mesma imagem.
 anterior da aplicação.
 * Execução em Batcj: permite rodar comandos em batch como containers.
 
+## Recursos do Kubernetes
+
+O kubernetes pussi vários recurso. Pode ser pensando como:
+
+* Uma plataforma de container
+* Uma plataforma de microserviços
+* Uma plataforma de Cloud e Iot
+
+Kubernetes fornece um ambiente de gerenciamento centrado em contenieres, ele
+orquestra containers, rede e armazenamento.
+Isso fornece grande parte da simplicaidade da Plataforma como Serviço (PaaS) 
+com a flexibilidade da Infraestrutura como Serviço (IaaS), e permiti
+a portabilidade entre provedores.
 
 ## Sua arquitetura
 
