@@ -1,7 +1,7 @@
 # Arquitetura do kubernetes
 
-    - [O que é no?](#O-que-é-no-?)
-    - [Estado de um no](#Estado-de-um-no)
+    - [O que é no?](#O que é no ?)
+    - [Estado de um no](#Estado de um no)
 
 # O que é no?
 
