@@ -15,3 +15,13 @@ gerenciando pelo componentes do master. Os serviços em nó
 incluem Docker, Kubelet and kube-proxy.
 
 # Estado de um no
+
+Um no contém informações de estatus como:
+
+* [Endereço da interface](https://kubernetes.io/docs/concepts/architecture/nodes/#addresses)
+* [Condição](https://kubernetes.io/docs/concepts/architecture/nodes/#condition)
+    
+    O campo de condições descreve o status de todos os nós em execução.
+
+* [Capacidade](https://kubernetes.io/docs/concepts/architecture/nodes/#capacity)
+* [Outras informações](https://kubernetes.io/docs/concepts/architecture/nodes/#info)
