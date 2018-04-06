@@ -49,12 +49,32 @@ Isso fornece grande parte da simplicaidade da Plataforma como Serviço (PaaS)
 com a flexibilidade da Infraestrutura como Serviço (IaaS), e permiti
 a portabilidade entre provedores.
 
-## Sua arquitetura
+## Kubernetes como plataforma
 
-Kubernetes possui uma unidade de controle chamada de master server que executa vários serviços
-de uso exclusivo para o funcionamento do cluster.
+Mesmo que o kubernete forneça muitas funcionalidades, sempre há novos cenários
+que se beneficiam de novos recursos. A orquestração ad hoc é aceitavel inicialmente,
+geralmente requer automação robusta. É por isso que o kubernetes também foi 
+projetada para servir como uma plataforma para criar um ecossistema de componentes 
+e ferramentas para facilitar a implatação.
 
-Toda a comunicação e configuração de cluster é realizada por meio de ETCD um 
-armazenamento de chave-valor que salva o estado do cluster 
-e compartilha entre os nós por meio de sua API HTTP/JSON.
+O plano de controle do Kubernetes é construído sobre as mesmas APIs que estão 
+disponíveis para desenvolvedores e usuários. Os usuários podem escrever seus 
+próprios controladores, como agendadores, com suas próprias APIs que pode ser
+direcionadas por uma ferramenta de linha de comando de propósito geral.
+
+## O que o Kubernetes não é:
+O Kubernetes não é um sistema tradicional de PaaS (Platform as a Service) com tudo
+incluido. Como o Kubernetes opera do nívle do contêiner, e não no nível do hardware,
+ele fornece alguns recursos geralmente aplicáveis comuns às ofertas de PaaS, 
+como implantação, dimensionamento, balanceamento de carga, registo e monitoramento.
+No entando, o Kubernetes fornece os blocos de contrução para a contrução de plaraformas
+de desenvolvedores, mas preserva a escolha do usuário e a flexibilidade onde é importante.
+
+O Kubernetes visa oferecer suporte a uma variedade extremamente diversificada 
+de ambiente , inclue stareless, stateful, e ambiente de processamento.
+
+Não importa fazer deploy do seu codigo e não importa fazer build da sua aplicação.
+Integração continua, e Distribuição Continua (CI/CD) são detreminados pela cultura e
+preferência da organização, bem como pelos requisitos técnicos.
+
 
